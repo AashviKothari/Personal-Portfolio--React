@@ -36,8 +36,9 @@ html{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-white);
+    color: var(--color-white);
     line-height: 1.7;
+    background-color: #2c2c6c;
 
 }
 
@@ -97,5 +98,37 @@ a{
 }
 
 .btn-primary{
-    
+    background:var(--color-primary);
+    color:var(--color-bg);
+
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ============= MEDIA QUERIES (MEDIUM DEVICES) =========== */
+
+@media  screen and (max-width: 1024px) {
+    .container{
+        width: var(--container-width-md);
+    }
+
+    section{
+        margin-top: 6rem;
+    }
+}
+
+/* ============= MEDIA QUERIES (SMALL DEVICES) =========== */
+
+@media  screen and (max-width: 600px) {
+    .container{
+        width: var(--container-width-Sm);
+    }
+
+    section > h2 {
+        margin-top: 3rem;
+    }
 }
