@@ -12,8 +12,11 @@ const Header = () => {
         <h5 className='text-light'>Full Stack Developer</h5>
         <CTA />
         <HeaderSocials />
+        <div className='me'>
+          
+        </div>
         
-        <a href='#contact' className='scroll__down'></a>
+        <a href='#contact' className='scroll__down'>Scroll Down</a>
       </div> 
     </header>
   )
