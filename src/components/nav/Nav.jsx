@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <nav>
       <a href='#' className={activeNav === '#' ? 'active':'' }><FiHome/></a>
-      <a href='#about'><FiUserCheck/></a>
+      <a href='#about' onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active':''}><FiUserCheck/></a>
       <a href='#experience'><BiBookBookmark/></a>
       <a href='#services'><RiServiceLine/></a>
       <a href='#contact'><AiFillContacts/></a>
