@@ -10,8 +10,7 @@ import {useState} from 'react'
 const Nav = () => {
   const [activeNav, setActiveNav] = useState('#');
   return (
-    
-    <nav>
+        <nav>
       <a href='#' onClick={()=> setActiveNav('#')} className={activeNav === '#' ? 'active':'' }><FiHome/></a>
       <a href='#about' onClick={()=> setActiveNav('#about')} className={activeNav === '#about' ? 'active':''}><FiUserCheck/></a>
       <a href='#experience' onClick={()=> setActiveNav('#experience')} className={activeNav === '#experience' ? 'active':'' }><BiBookBookmark/></a>
