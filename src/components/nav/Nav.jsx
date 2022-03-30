@@ -8,6 +8,7 @@ import {AiFillContacts} from 'react-icons/ai'
 import {useState} from 'react'
 
 const Nav = () => {
+
   const [activeNav, setActiveNav] = useState('#');
   return (
     <nav>
