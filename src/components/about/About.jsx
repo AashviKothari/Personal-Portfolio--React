@@ -1,6 +1,7 @@
 import React from 'react'
 import './About.css'
 import {FaAward} from 'react-icons/fa'
+import {FiUsers} from 'react-icons/fi'
 
 const About = () => {
   return (
@@ -23,8 +24,8 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-                <FaAward className='about__icon'/>
-              <h5>Experience</h5>
+                <FiUsers className='about__icon'/>
+              <h5>Cliends</h5>
               <small>3+ Years Working</small>
             </article>
 
