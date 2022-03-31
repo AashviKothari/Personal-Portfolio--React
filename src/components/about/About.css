@@ -22,4 +22,28 @@
     border-radius: 2rem;
     overflow: hidden;
     transform: rotate(10deg);
+    transition: var(--transition);
+}
+
+.about__me-image:hover{
+    transform: rotate(0);
+}
+
+.about__cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.about__card{
+    background: var(--color-bg-variant);
+    border: 1p solid transparent;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.about__card:hover{
+    background: transparent;
+    border-color: var(--color-primary-variant);
 }
