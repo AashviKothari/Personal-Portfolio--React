@@ -9,6 +9,7 @@ const About = () => {
     <section id='about'>
     <br></br>
     <br></br>
+    <br></br>
       <h5>Get To Know</h5>
       <h2>About Me!</h2>
 
